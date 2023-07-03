@@ -1,0 +1,22 @@
+Frameworx License 1.0
+
+Version 1.0
+
+SPDX short identifier: Frameworx-1.0
+
+Frameworx License 1.0 is a permissive open-source license that allows you to use, modify, and distribute the Frameworx Code Base under certain conditions.
+
+To use the Frameworx Code Base, you must agree to the terms and conditions of this license. By using the Frameworx Code Base, you are indicating your acceptance of this license.
+
+The full text of the Frameworx License 1.0 is available at [URL or path to the license text].
+
+Please read the license carefully before using the Frameworx Code Base.
+
+By using the Frameworx Code Base, you agree to:
+
+1. Include an unaltered copy of this license ("the_frameworx_license.txt") with the Frameworx Code Base.
+2. Adhere to the terms and conditions outlined in the Frameworx License 1.0.
+3. Provide attribution to the original authors and contributors of the Frameworx Code Base.
+
+For any questions or inquiries regarding the Frameworx License 1.0, please contact dakshinamoorthy.pv@protonmail.com.
+

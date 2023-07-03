@@ -1,0 +1,40 @@
+{
+  "__comment": "General settings for the application",
+  "app": {
+    "__comment1": "Specify the environment in which the application is run",
+    "environment": "UAT",
+    "__comment2": "Base URL for the application",
+    "base_url": "https://www.securian.com/",
+    "__comment3": "Browser to use for running tests",
+    "browser": "Chrome"
+  },
+  "__comment4": "Configuration for remote execution or cross-environment execution",
+  "remote": {
+    "__comment5": "Hostname for the remote Linux machine",
+    "linux_host": null,
+    "__comment6": "Username for the remote Linux machine",
+    "linux_username": null
+  },
+  "__comment7": "Settings for sending emails",
+  "email": {
+    "__comment8": "SMTP host for Gmail",
+    "smtp_host": "smtp.gmail.com",
+    "__comment9": "SMTP port for Gmail",
+    "smtp_port": 587,
+    "__comment10": "Email address to send emails from",
+    "sender_email": "securian.automation@gmail.com",
+    "__comment": "Password for the sender email address",
+    "sender_password": "SecurePassword123!"
+  },
+  "__comment12": "Email recipient details",
+  "email_recipients": {
+    "__comment13": "Email address to send emails to",
+    "to_email": "moorthyxp@hotmail.com",
+    "__comment14": "Email addresses to CC on emails",
+    "cc_emails": ["dakshinamcakg@gmail.com", "moorthyxp@gmail.com"],
+    "__comment15": "Email addresses to BCC on emails",
+    "bcc_emails": [],
+    "__comment16": "Whether to send a mail report. Set 'No' to disable mail report, 'Yes' to enable it",
+    "send_mail_report": "No"
+  }
+}

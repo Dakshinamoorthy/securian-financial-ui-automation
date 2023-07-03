@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+@font-face {
+  font-family: 'HurmeGeometricSansRegular';
+  src: url('/base/fixtures/HurmeGeometricSansRegular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'anitasemisquare';
+  src: url('/base/fixtures/anitasemisquare.ttf') format('truetype');
+}

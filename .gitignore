@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Compiled files
+bin/
+target/
+
+# Temporary files
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+*.code-workspace
+.settings/
+.classpath
+.project
+.factorypath
+
+# Eclipse metadata
+.metadata/
+
+# Ignore the package-lock.json file
+package-lock.json

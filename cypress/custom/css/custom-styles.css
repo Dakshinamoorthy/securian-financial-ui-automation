@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+/* Custom CSS styles for the report */
+@font-face {
+  font-family: 'HurmeGeometricSansRegular';
+  src: url('../support/fonts/HurmeGeometricSansRegular.otf') format('opentype');
+}
+
+body {
+  font-family: 'HurmeGeometricSansRegular', Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+h1 {
+  color: #099541;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e9e9e9;
+}
+
+/* Custom color for scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #099541; /* Custom color for the scrollbar thumb */
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Splash Page Styles */
+@keyframes logo-rotation {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #splash-page {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
+
